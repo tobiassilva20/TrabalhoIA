@@ -38,9 +38,7 @@ public class Calculos {
 		//Calculo da segunda media do vetor dos quadrados
 		mi = (int) calcularMedia(a);
 		double dp = 0;
-			dp= Math.sqrt(mi);
-		System.out.println(dp);
-		
+		dp= Math.sqrt(mi);		
 		return dp;	
 	}
 	
