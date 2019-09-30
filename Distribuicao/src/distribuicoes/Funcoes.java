@@ -13,7 +13,9 @@ public class Funcoes {
 			aux[x] = a[x];
 		}
 		double dp = calculos.calcularDesvioPadrao(a); //Calculo do desvio padrao
-		System.out.println(dp);
+		System.out.println("Media Aritmetica: " +mi);
+		System.out.println("Desvio padrao: " +dp);
+		
 		double v1 = 1/(dp*Math.sqrt(2*Math.PI)); // Primeira parte da formula, 1 sobre desvio padrao X 2 x Pi
 		
 		double []fx = new double [a.length];
