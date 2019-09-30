@@ -9,16 +9,17 @@ public class Main {
 		Calculos c = new Calculos();
 		Scanner sc = new Scanner(System.in);
 		int id = 0, al =0;
-		System.out.println("Idade:");
+		System.out.print("Idade:");
 		id = sc.nextInt();
-		System.out.println("altura:");
+		System.out.print("altura:");
 		al = sc.nextInt();
 		sc.close();
 		int []a = c.gerarDados(id, al);
+		Funcoes f = new Funcoes();
+		f.calcularDistNormal(a);
 		
-		double b = c.calcularDesvioPadrao(a);
 		
-			System.out.println(b);
+			
 		
 		
 		
